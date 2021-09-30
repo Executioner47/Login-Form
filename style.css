@@ -1,0 +1,59 @@
+:root {
+  --primary-green: rgb(255, 255, 255);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://media.istockphoto.com/photos/panorama-of-cairo-picture-id1180786967?b=1&k=20&m=1180786967&s=170667a&w=0&h=cuHPHXxFRHuPz48CnMhz-yJSVLT0NylU9eo8ZlKBElE=");
+  backdrop-filter: blur(4px);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+  border-bottom: 3px solid var(--primary-green);
+  padding-bottom: 9px;
+}
+
+.textbox {
+  border-bottom: 1px solid var(--primary-green);
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+input {
+  border: none;
+  background: transparent;
+  outline: none;
+  caret-color: white;
+  color: white;
+  font-size: 15px;
+}
+
+.signin {
+  border: 2px solid var(--primary-green);
+  color: white;
+  width: 100%;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+i {
+  color: white;
+}
